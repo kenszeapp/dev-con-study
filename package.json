@@ -1,0 +1,17 @@
+{
+  "name": "dev-con-in-nodejs",
+  "version": "1.0.0",
+  "description": "By using dev container, create a dev environment for node-js code with MongoDB",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ken Sze",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "mongodb": "^5.1.0"
+  }
+}
